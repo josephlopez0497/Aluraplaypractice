@@ -1,0 +1,42 @@
+.cabecera__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+}
+.cabecera__buscar__item{
+    display: none;
+        
+}
+.superior__seccion__container{
+
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap:15px;
+    
+    
+
+}
+.rodapie__container{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+
+}
+
+
+@media (min-width:834px){
+
+    .cabecera__buscar__item{
+        display: block;
+    }
+    .rodapie__container{
+        justify-content: space-between;
+            }
+
+} 
